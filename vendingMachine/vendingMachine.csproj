@@ -56,6 +56,13 @@
     <TypeScriptSourceRoot />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="img\Candy.png" />
+    <Content Include="img\CandyBar.png" />
+    <Content Include="img\Chips.png" />
+    <Content Include="img\Dime.png" />
+    <Content Include="img\Dollar.jpg" />
+    <Content Include="img\Half.png" />
+    <Content Include="img\Nuts.png" />
     <Content Include="img\Quarter.png" />
     <Content Include="img\SodaCan.png" />
     <Content Include="js\lib\knockout-3.4.0.js" />
