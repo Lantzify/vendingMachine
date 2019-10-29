@@ -39,3 +39,5 @@ class CandyBarCategory extends ProductCategory {
         return this.imgPath + "CandyBar.png";
     }
 }
+
+export { ProductCategory, SodaCategory, NutsCategory, ChipsCategory, CandyCategory, CandyBarCategory }

@@ -1,78 +1,78 @@
-/// <reference path="productCategory.ts" />
+import * as categories from "./productCategory"
 
-interface IProduct {
+export interface IProduct {
     name: string
     price: number
-    category?: ProductCategory
+    category?: categories.ProductCategory
 }
 
-class Initial implements IProduct {
+export class Initial implements IProduct {
     name = "Please select a product"
     price = 0
 }
 
-class CocaCola implements IProduct {
+export class CocaCola implements IProduct {
     name: string = "Coca-Cola"
     price = 2.30
-    category = new SodaCategory()
+    category = new categories.SodaCategory()
 }
 
-class Fanta implements IProduct {
+export class Fanta implements IProduct {
     name: string = "Fanta"
     price = 2
-    category = new SodaCategory()
+    category = new categories.SodaCategory()
 }
 
-class Sprite implements IProduct {
+export class Sprite implements IProduct {
     name: string = "Sprite"
     price = 1.80
-    category = new SodaCategory()
+    category = new categories.SodaCategory()
 }
 
-class Peanuts implements IProduct {
+export class Peanuts implements IProduct {
     name: string = "Peanuts"
     price = 1.50
-    category = new NutsCategory()
+    category = new categories.NutsCategory()
 }
 
-class Cashews implements IProduct {
+export class Cashews implements IProduct {
     name: string = "Cashews"
     price = 2.80
-    category = new NutsCategory()
+    category = new categories.NutsCategory()
 }
 
-class Plain implements IProduct {
+export class Plain implements IProduct {
     name: string = "Plain"
     price = 2
-    category = new ChipsCategory()
+    category = new categories.ChipsCategory()
 }
 
-class Cheddar implements IProduct {
+export class Cheddar implements IProduct {
     name: string = "Cheddar"
     price = 2
-    category = new ChipsCategory()
+    category = new categories.ChipsCategory()
 }
 
-class Mints implements IProduct {
+export class Mints implements IProduct {
     name: string = "Mints"
     price = 1.30
-    category = new CandyCategory()
+    category = new categories.CandyCategory()
 }
 
-class Gummies implements IProduct {
+export class Gummies implements IProduct {
     name: string = "Gummies"
     price = 1.90
-    category = new CandyCategory()
+    category = new categories.CandyCategory()
 }
 
-class Hersey implements IProduct {
+export class Hersey implements IProduct {
     name: string = "Hersey's"
     price = 1.30
-    category = new CandyBarCategory()
+    category = new categories.CandyBarCategory()
 }
 
-class MilkyWay implements IProduct {
+export class MilkyWay implements IProduct {
     name: string = "Milky Way"
     price = 1.80
-    category = new CandyBarCategory()
+    category = new categories.CandyBarCategory()
 }

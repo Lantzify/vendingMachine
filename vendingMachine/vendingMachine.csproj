@@ -66,6 +66,7 @@
     <Content Include="img\Quarter.png" />
     <Content Include="img\SodaCan.png" />
     <Content Include="js\lib\knockout-3.4.0.js" />
+    <Content Include="js\lib\require.js" />
     <Content Include="ts\tsconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -80,12 +81,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="ts\bootstraper.ts" />
     <TypeScriptCompile Include="ts\coin.ts" />
     <TypeScriptCompile Include="ts\product.ts" />
     <TypeScriptCompile Include="ts\productCategory.ts" />
     <TypeScriptCompile Include="ts\productFactory.ts" />
     <TypeScriptCompile Include="ts\typings\knockout.d.ts" />
+    <TypeScriptCompile Include="ts\typings\require.d.ts" />
     <TypeScriptCompile Include="ts\vendingMachine.ts" />
   </ItemGroup>
   <ItemGroup>
